@@ -1,7 +1,4 @@
-📘 README.md — النسخة الكاملة (Complete)
-هذا هو الملف الكامل مع كل الأقسام موضّحة ومفصّلة. انسخه كما هو إلى ملف README.md في جذر المشروع.
 
-markdown
 # 📝 Task Manager — React Lab 01
 
 > A hands-on, code-first React lab that teaches the **modern React ecosystem** by building a fully functional Task Manager application.
