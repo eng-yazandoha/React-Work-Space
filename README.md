@@ -7,16 +7,15 @@
 > **Stack:** React 18+ · Vite · Plain CSS · localStorage  
 > **Focus:** Modern Hooks API (2026 standards)
 
-## 📸 Screenshots
-
 ### Home Screen
-<img src="assets/screenshot-home.png" alt="Task Manager – Home screen" width="700" />
+<img src="src/assets/screenshot-home.png" alt="Task Manager – Home screen" width="700" />
 
 ### Filtering Tasks
 <p align="center">
-  <img src="assets/screenshot-filters.png" alt="All / Active / Done filters" width="45%" />
-  <img src="assets/screenshot-empty.png" alt="Empty state" width="45%" />
+  <img src="src/assets/screenshot-filters.png" alt="All / Active / Done filters" width="45%" />
+  <img src="src/assets/screenshot-empty.png" alt="Empty state" width="45%" />
 </p>
+
 ## 📑 Table of Contents
 
 - [Quick Start](#-quick-start)
