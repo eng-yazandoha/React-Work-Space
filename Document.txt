@@ -1,0 +1,192 @@
+📋 المطلوب الأول: قائمة الموضوعات والتقنيات المستخدمة
+🇬🇧 English Version — Topics & Techniques Covered
+Lab 01 — Task Manager App
+1. Tooling & Setup
+
+CLI (Vite) project scaffolding
+
+npm create vite@latest
+
+npm scripts (dev, build, preview)
+
+2. Components & JSX
+
+Functional Components
+
+JSX syntax (className, {} expressions, single root)
+
+Component file organization (one component per file)
+
+export default / import
+
+3. Props & State
+
+Props (read-only, parent → child)
+
+useState (internal, mutable state)
+
+Lazy initialization with a function (useState(() => ...))
+
+Functional updates (setTasks(prev => ...))
+
+4. Conditional Rendering
+
+Ternary operator (condition ? A : B)
+
+Logical AND (&&)
+
+Conditional CSS classes
+
+Conditional disabled attribute
+
+5. Composition
+
+children prop (Layout wraps content)
+
+Composing small components into larger ones
+
+6. Rendering & Lists
+
+Rendering arrays with .map()
+
+Unique key (crypto.randomUUID()) vs. index (anti-pattern)
+
+7. Lifecycle with Hooks
+
+useEffect for side effects
+
+Dependency array ([tasks] vs [])
+
+Cleanup pattern (conceptual)
+
+Syncing with localStorage
+
+Updating document.title
+
+8. Refs
+
+useRef for direct DOM access
+
+inputRef.current.focus()
+
+9. Events
+
+onSubmit, onChange, onClick
+
+e.preventDefault()
+
+Camel-case event names
+
+Passing arguments via arrow functions
+
+10. Patterns (Bonus)
+
+HOC — withLoading(Component) (function returning a component)
+
+Render Props — Toggle with render({ on, toggle })
+
+Distinguishing HOC from Composition
+
+11. Data Flow
+
+Lifting state up (state in App, callbacks down to children)
+
+Single source of truth
+
+Immutable updates (map, filter, spread)
+
+🇸🇦 النسخة العربية — الموضوعات والتقنيات المستخدمة
+المختبر الأول — تطبيق مدير المهام
+1. الأدوات والإعداد
+
+أداة CLI (Vite) لبناء هيكل المشروع
+
+الأمر npm create vite@latest
+
+أوامر npm (dev, build, preview)
+
+2. المكونات و JSX
+
+المكونات الوظيفية (Functional Components)
+
+صيغة JSX (className، أقواس {}، عنصر أب واحد)
+
+تنظيم الملفات (مكون لكل ملف)
+
+export default و import
+
+3. الـ Props والـ State
+
+Props (للقراءة فقط، من الأب للابن)
+
+useState (حالة داخلية قابلة للتغيير)
+
+التهيئة الكسولة بدالة (useState(() => ...))
+
+التحديث بالدالة (setTasks(prev => ...))
+
+4. العرض الشرطي (Conditional Rendering)
+
+المعامل الثلاثي (condition ? A : B)
+
+العامل المنطقي AND (&&)
+
+الفئات الشرطية (Conditional CSS classes)
+
+الخاصية الشرطية disabled
+
+5. التركيب (Composition)
+
+خاصية children (مكون Layout يلف المحتوى)
+
+تجميع مكونات صغيرة في مكونات أكبر
+
+6. العرض والقوائم
+
+عرض المصفوفات عبر .map()
+
+المفتاح الفريد (crypto.randomUUID()) بدلاً من index (نمط سيئ)
+
+7. دورة الحياة عبر الـ Hooks
+
+useEffect للآثار الجانبية (Side Effects)
+
+مصفوفة الاعتماديات ([tasks] مقابل [])
+
+نمط التنظيف (Cleanup) نظرياً
+
+المزامنة مع localStorage
+
+تحديث document.title
+
+8. الـ Refs
+
+useRef للوصول المباشر لعناصر DOM
+
+inputRef.current.focus()
+
+9. الأحداث (Events)
+
+onSubmit, onChange, onClick
+
+e.preventDefault()
+
+أسماء الأحداث بصيغة camelCase
+
+تمرير المعاملات عبر دوال السهم (Arrow Functions)
+
+10. أنماط متقدمة (Bonus)
+
+HOC — withLoading(Component) (دالة تعيد مكوناً)
+
+Render Props — مكون Toggle مع render({ on, toggle })
+
+التمييز بين HOC و Composition
+
+11. تدفق البيانات
+
+رفع الحالة للأعلى (State في App، دوال الـ Callback للأسفل)
+
+مصدر واحد للحقيقة (Single Source of Truth)
+
+التحديثات غير المتغيرة (Immutable updates) عبر map, filter, spread
