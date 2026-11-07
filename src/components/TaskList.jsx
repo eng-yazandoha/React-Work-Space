@@ -1,4 +1,3 @@
-// src/components/TaskList.jsx
 import TaskItem from './TaskItem';
 
 function TaskList({ tasks, onToggle, onDelete }) {
