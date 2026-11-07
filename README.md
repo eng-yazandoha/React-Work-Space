@@ -1,4 +1,4 @@
-
+# Work Without AI
 # 📝 Task Manager — React Lab 01
 
 > A hands-on, code-first React lab that teaches the **modern React ecosystem** by building a fully functional Task Manager application.
